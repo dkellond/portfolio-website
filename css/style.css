@@ -1,17 +1,68 @@
-h1{
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+h1 {
+  font-family: "Poppins" sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  color: #0400B2;
+  padding-left: 50px;
+}
+h2 {
+  padding: 0px;
 }
 h4 {
   font-family: "Raleway", sans-serif;
   font-size: 14px
   font-weight: 400;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+}
 a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #0400B2;
+  text-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+a:visited{
+  text-decoration: none;
   color: #0400B2
 }
 
-a:hover{
-  color: #B29300
+a:hover {
+  opacity: 0.2;
+  text-decoration: none
+}
+
+.nav{
+  list-style: none;
+  padding-right: 50px;
+  float:right;
+}
+
+.nav li{
+  display: inline-block;
+}
+.button-Primary {
+  background-color: #0400B2;
+  font-family: "Poppins" , sans-serif;
+  color: white;
   text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button-Primary:hover {
+  background-color: #FFF;
+  color: #0400B2;
+  border: solid 3px;
+  font-family: "Poppins" , sans-serif;
+  border-radius: 20px;
+  padding: 10px 20px; 
+
 }
